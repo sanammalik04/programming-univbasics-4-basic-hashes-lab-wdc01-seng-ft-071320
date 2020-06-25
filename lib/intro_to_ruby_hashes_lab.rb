@@ -2,7 +2,7 @@ def new_hash
   {}
 end
 
-ddef new_hash
+def new_hash
   Hash.new
 end
 
