@@ -2,15 +2,7 @@ def new_hash
   {}
 end
 
-def new_hash
-  Hash.new
+def my_hash
+  { :favorite_color => "blue" }
 end
 
-def new_hash
-  hash = {}
-  hash
-end
-
-def id_hash_generator(number)
-  { id: number }
-end
